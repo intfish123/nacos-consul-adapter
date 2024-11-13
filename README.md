@@ -1,6 +1,6 @@
 # Nacos Consul Adapter(for Prometheus)
 Prometheus官方提供Consul为注册中心的配置方式，配置后可自动获取Consul中所有实例的信息并进行监控。  如果想使用Prometheus监控使用其他注册中心的服务就需要一些额外的适配，适配的目的是让项目提供Consul服务器相同接口。  
-本项目是以Nacos为注册中心的适配器，供Prometheus获取注册中心的所有实例信息。本项目受<a href='https://github.com/twinformatics/eureka-consul-adapter'>Eureka Consul Adapter</a>项目的启发，实现了<a href = 'https://github.com/chen-gliu/nacos-consul-adapter'>Nacos Consul Adapter</a>。在Eureka的适配实现中作者使用的是Rx-Java,本系统是使用Reactor3实现和Spring Cloud GateWay的技术栈一致。之前也有<a href='https://github.com/yueyemisi/nacos-consul-adapter'>Nacos Consul Adapter</a>的实现在GitHub开源，但是由于Consul在某个版本修改了健康检测接口的路径，所以在高版本的Prometheus就无法使用了，并且<a href = 'https://github.com/yueyemisi/nacos-consul-adapter'>之前的版本</a>也未提供长轮询实现。  
+本项目是以Nacos为注册中心的适配器，供Prometheus获取注册中心的所有实例信息。本项目受<a href='https://github.com/twinformatics/eureka-consul-adapter'>Eureka Consul Adapter</a>项目的启发，实现了<a href = 'https://github.com/intfish123/nacos-consul-adapter'>Nacos Consul Adapter</a>。在Eureka的适配实现中作者使用的是Rx-Java,本系统是使用Reactor3实现和Spring Cloud GateWay的技术栈一致。之前也有<a href='https://github.com/yueyemisi/nacos-consul-adapter'>Nacos Consul Adapter</a>的实现在GitHub开源，但是由于Consul在某个版本修改了健康检测接口的路径，所以在高版本的Prometheus就无法使用了，并且<a href = 'https://github.com/yueyemisi/nacos-consul-adapter'>之前的版本</a>也未提供长轮询实现。  
 
 ## 特性
 项目一共只有四个接口:  
@@ -32,10 +32,10 @@ spring-boot 2.3+
 
 ## 快速开始  
 可以在Spring Cloud Gateway中引入下面的jar包（可以是服务中任意的节点，在Spring Cloud Gateway中原因是，它基于Reactor。如果不是使用Spring WebFlux则还需要引入额外的包），然后在Prometheus中配置Spring Cloud Gateway的一个实例的ip地址就可以了。
-项目的开源地址为：https://github.com/chen-gliu/nacos-consul-adapter。对本项目有任何问题和优化建议都可以提issue。
+项目的开源地址为：https://github.com/intfish123/nacos-consul-adapter。对本项目有任何问题和优化建议都可以提issue。
 ```
         <dependency>
-            <groupId>io.github.chen-gliu</groupId>
+            <groupId>io.github.intfish123</groupId>
             <artifactId>nacos-consul-adapter</artifactId>
             <version>version</version>
         </dependency> 

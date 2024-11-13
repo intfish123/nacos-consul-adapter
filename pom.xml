@@ -8,11 +8,11 @@
         <version>2.3.11.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>io.github.chen-gliu</groupId>
+    <groupId>io.github.intfish123</groupId>
     <artifactId>nacos-consul-adapter</artifactId>
     <version>0.0.5.M</version>
     <name>nacos-consul-adapter</name>
-    <url>https://github.com/chen-gliu/nacos-consul-adapter</url>
+    <url>https://github.com/intfish123/nacos-consul-adapter</url>
     <description>适配nacos使用promethues consul</description>
     <properties>
         <java.version>1.8</java.version>
@@ -24,17 +24,17 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git@github.com:chen-gliu/nacos-consul-adapter.git</connection>
-        <developerConnection>scm:git:git@github.com:chen-gliu/nacos-consul-adapter.git</developerConnection>
-        <url>https://github.com/chen-gliu/nacos-consul-adapter</url>
+        <connection>scm:git@github.com:intfish123/nacos-consul-adapter.git</connection>
+        <developerConnection>scm:git:git@github.com:intfish123/nacos-consul-adapter.git</developerConnection>
+        <url>https://github.com/intfish123/nacos-consul-adapter</url>
     </scm>
 
     <inceptionYear>2021</inceptionYear>
 
     <developers>
         <developer>
-            <name>liucheng</name>
-            <email>282598814@qq.com</email>
+            <name>intfish123</name>
+            <email>intfish@qq.com</email>
         </developer>
     </developers>
 
@@ -157,7 +157,7 @@
                     <configuration>
                         <header>com/mycila/maven/plugin/license/templates/MIT.txt</header>
                         <properties>
-                            <owner>liu cheng</owner>
+                            <owner>intfish123</owner>
                         </properties>
                         <excludes>
                             <exclude>**/*.properties</exclude>
