@@ -20,11 +20,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package io.github.chengliu.nacosconsuladapter.utils;
+package io.github.intfish123.nacosconsuladapter.utils;
 
 import com.alibaba.cloud.nacos.NacosDiscoveryProperties;
-import io.github.chengliu.nacosconsuladapter.listeners.ServiceChangeListener;
-import io.github.chengliu.nacosconsuladapter.model.Result;
+import io.github.intfish123.nacosconsuladapter.listeners.ServiceChangeListener;
+import io.github.intfish123.nacosconsuladapter.model.Result;
 import com.alibaba.nacos.api.exception.NacosException;
 import com.alibaba.nacos.api.naming.listener.EventListener;
 import com.alibaba.nacos.client.naming.NacosNamingService;

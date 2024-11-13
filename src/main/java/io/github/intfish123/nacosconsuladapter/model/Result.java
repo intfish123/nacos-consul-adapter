@@ -20,32 +20,21 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package io.github.chengliu.nacosconsuladapter;
+package io.github.intfish123.nacosconsuladapter.model;
 
-import io.micrometer.core.instrument.MeterRegistry;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryCustomizer;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.context.annotation.Bean;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
-/**
- * @description:
- * @author: lc
- * @createDate: 2021/6/14
+/***
+ * 结果封装类
+ *
+ * @author lc
+ * @Date 2021-6-1
  */
-@SpringBootApplication
-@EnableDiscoveryClient
-public class Application {
 
-    @Bean
-    MeterRegistryCustomizer<MeterRegistry> configurer(
-            @Value("${spring.application.name}") String applicationName) {
-        return (registry) -> registry.config().commonTags("application", applicationName);
-    }
-
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class);
-    }
+@Getter
+@AllArgsConstructor
+public class Result<T> {
+    private T data;
+    private long changeIndex;
 }

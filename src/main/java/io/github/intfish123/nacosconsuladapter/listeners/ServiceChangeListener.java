@@ -20,9 +20,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package io.github.chengliu.nacosconsuladapter.listeners;
+package io.github.intfish123.nacosconsuladapter.listeners;
 
-import io.github.chengliu.nacosconsuladapter.utils.NacosServiceCenter;
+import io.github.intfish123.nacosconsuladapter.utils.NacosServiceCenter;
 import com.alibaba.nacos.api.naming.listener.Event;
 import com.alibaba.nacos.api.naming.listener.EventListener;
 import com.alibaba.nacos.api.naming.listener.NamingEvent;

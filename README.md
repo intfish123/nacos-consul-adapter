@@ -113,5 +113,4 @@ spring-boot 2.3+
 
 
 ## 感谢  
-感谢<a href='https://github.com/twinformatics/eureka-consul-adapter'>Eureka Consul Adapter</a>项目开发人员，项目中部分代码借鉴了<a href='https://github.com/twinformatics/eureka-consul-adapter'>Eureka Consul Adapter</a>的实现。
-
+感谢<a href='https://github.com/chen-gliu/nacos-consul-adapter'>nacos-consul-adapter</a>项目开发人员。

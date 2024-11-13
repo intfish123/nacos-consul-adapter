@@ -20,14 +20,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package io.github.chengliu.nacosconsuladapter;
+package io.github.intfish123.nacosconsuladapter;
 
-import io.github.chengliu.nacosconsuladapter.config.NacosConsulAdapterProperties;
-import io.github.chengliu.nacosconsuladapter.controller.AgentController;
-import io.github.chengliu.nacosconsuladapter.controller.ServiceController;
-import io.github.chengliu.nacosconsuladapter.service.RegistrationService;
-import io.github.chengliu.nacosconsuladapter.service.impl.DirectRegistrationService;
-import io.github.chengliu.nacosconsuladapter.service.impl.LongPollingRegistrationService;
+import io.github.intfish123.nacosconsuladapter.config.NacosConsulAdapterProperties;
+import io.github.intfish123.nacosconsuladapter.controller.AgentController;
+import io.github.intfish123.nacosconsuladapter.controller.ServiceController;
+import io.github.intfish123.nacosconsuladapter.service.RegistrationService;
+import io.github.intfish123.nacosconsuladapter.service.impl.DirectRegistrationService;
+import io.github.intfish123.nacosconsuladapter.service.impl.LongPollingRegistrationService;
 import com.alibaba.cloud.nacos.NacosDiscoveryProperties;
 import com.alibaba.cloud.nacos.NacosServiceManager;
 import lombok.extern.slf4j.Slf4j;

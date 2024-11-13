@@ -20,12 +20,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package io.github.chengliu.nacosconsuladapter.service;
+package io.github.intfish123.nacosconsuladapter.service;
 
 
-import io.github.chengliu.nacosconsuladapter.model.Result;
-import io.github.chengliu.nacosconsuladapter.model.ServiceInstancesHealth;
-import io.github.chengliu.nacosconsuladapter.model.ServiceInstancesHealthOld;
+import io.github.intfish123.nacosconsuladapter.model.Result;
+import io.github.intfish123.nacosconsuladapter.model.ServiceInstancesHealth;
+import io.github.intfish123.nacosconsuladapter.model.ServiceInstancesHealthOld;
 import reactor.core.publisher.Mono;
 
 import java.util.List;
