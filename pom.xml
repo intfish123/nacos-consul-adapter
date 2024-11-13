@@ -10,7 +10,7 @@
     </parent>
     <groupId>io.github.intfish123</groupId>
     <artifactId>nacos-consul-adapter</artifactId>
-    <version>0.0.5.M2</version>
+    <version>0.0.5.M3</version>
     <name>nacos-consul-adapter</name>
     <url>https://github.com/intfish123/nacos-consul-adapter</url>
     <description>适配nacos使用promethues consul</description>
